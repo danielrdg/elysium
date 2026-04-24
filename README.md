@@ -10,20 +10,27 @@ This skill brings those voices into Claude. Activate one and it takes over Claud
 
 ## Installation
 
-### claude.ai (Projects)
+### Claude Code (terminal) — via plugin marketplace
 
-1. Open [claude.ai](https://claude.ai) and create a new **Project**
-2. Go to **Project instructions**
-3. Paste the contents of `SKILL.md` into the instructions field
-4. Start a conversation and type `/elysium`
+```
+/plugin marketplace add danielrdg/disco-elysium-skill
+/plugin install elysium@disco-elysium-skill
+```
 
-### Claude Code (terminal)
+Then type `/elysium` to activate.
+
+### Claude Code (terminal) — manual
 
 1. Copy `CLAUDE.md` into the root of your project folder
 2. Start a Claude Code session in that folder
 3. Type `/elysium`
 
-The `CLAUDE.md` version includes everything from `SKILL.md` plus a section on how each skill influences code — naming conventions, solution style, comments, architecture decisions, and the general chaos level of the output.
+### claude.ai (Projects)
+
+1. Open [claude.ai](https://claude.ai) and create a new **Project**
+2. Go to **Project instructions**
+3. Paste the contents of `skills/elysium/SKILL.md` into the instructions field
+4. Start a conversation and type `/elysium`
 
 ---
 
