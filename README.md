@@ -15,9 +15,10 @@ This skill brings those voices into Claude. Activate one and it takes over Claud
 ```
 /plugin marketplace add danielrdg/disco-elysium-skill
 /plugin install elysium@disco-elysium-skill
+/reload-plugins
 ```
 
-Then type `/elysium` to activate.
+Then type `/elysium:elysium` to activate.
 
 ### Claude Code (terminal) — manual
 
@@ -38,11 +39,11 @@ Then type `/elysium` to activate.
 
 | Command | What it does |
 |---|---|
-| `/elysium` | Activates a randomly selected skill persona for 5 turns |
-| `/elysium [skill name]` | Activates a specific skill (e.g. `/elysium Shivers`) |
-| `/elysium list` | Lists all 24 skills with a one-line description |
-| `/elysium status` | Shows the active skill and remaining turns |
-| `/elysium reset` | Returns to normal Claude behavior immediately |
+| `/elysium:elysium` | Activates a randomly selected skill persona for 5 turns |
+| `/elysium:elysium [skill name]` | Activates a specific skill (e.g. `/elysium:elysium Shivers`) |
+| `/elysium:elysium list` | Lists all 24 skills with a one-line description |
+| `/elysium:elysium status` | Shows the active skill and remaining turns |
+| `/elysium:elysium reset` | Returns to normal Claude behavior immediately |
 
 ---
 
