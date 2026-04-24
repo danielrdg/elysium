@@ -10,14 +10,20 @@ This skill brings those voices into Claude. Activate one and it takes over Claud
 
 ## Installation
 
-This skill works with **Claude Projects** on [claude.ai](https://claude.ai).
+### claude.ai (Projects)
 
-1. Open Claude and create a new **Project**
+1. Open [claude.ai](https://claude.ai) and create a new **Project**
 2. Go to **Project instructions**
 3. Paste the contents of `SKILL.md` into the instructions field
 4. Start a conversation and type `/elysium`
 
-That's it.
+### Claude Code (terminal)
+
+1. Copy `CLAUDE.md` into the root of your project folder
+2. Start a Claude Code session in that folder
+3. Type `/elysium`
+
+The `CLAUDE.md` version includes everything from `SKILL.md` plus a section on how each skill influences code — naming conventions, solution style, comments, architecture decisions, and the general chaos level of the output.
 
 ---
 
