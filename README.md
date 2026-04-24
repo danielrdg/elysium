@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/danielrdg/disco-elysium-skill/stargazers"><img src="https://img.shields.io/github/stars/danielrdg/disco-elysium-skill?style=flat&color=yellow" alt="Stars"></a>
-  <a href="https://github.com/danielrdg/disco-elysium-skill/commits/main"><img src="https://img.shields.io/github/last-commit/danielrdg/disco-elysium-skill?style=flat" alt="Last Commit"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/danielrdg/disco-elysium-skill?style=flat" alt="License"></a>
+  <a href="https://github.com/danielrdg/elysium/stargazers"><img src="https://img.shields.io/github/stars/danielrdg/elysium?style=flat&color=yellow" alt="Stars"></a>
+  <a href="https://github.com/danielrdg/elysium/commits/main"><img src="https://img.shields.io/github/last-commit/danielrdg/elysium?style=flat" alt="Last Commit"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/danielrdg/elysium?style=flat" alt="License"></a>
 </p>
 
 <p align="center">
@@ -88,8 +88,8 @@ This plugin brings those voices into Claude. Activate one and it takes over Clau
 ## Install
 
 ```
-/plugin marketplace add danielrdg/disco-elysium-skill
-/plugin install elysium@disco-elysium-skill
+/plugin marketplace add danielrdg/elysium
+/plugin install elysium@elysium
 /reload-plugins
 ```
 
