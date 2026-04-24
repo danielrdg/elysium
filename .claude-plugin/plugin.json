@@ -1,0 +1,12 @@
+{
+  "name": "elysium",
+  "description": "Channels the 24 voices of Disco Elysium into Claude. Each skill takes over Claude's reasoning and tone for 5 turns, then auto-rotates to another.",
+  "version": "1.1.0",
+  "author": {
+    "name": "danielrdg"
+  },
+  "homepage": "https://github.com/danielrdg/disco-elysium-skill",
+  "repository": "https://github.com/danielrdg/disco-elysium-skill",
+  "license": "MIT",
+  "keywords": ["disco-elysium", "persona", "roleplay", "fun", "skill"]
+}
