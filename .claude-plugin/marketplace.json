@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "elysium",
-      "source": ".",
+      "source": "./plugin",
       "description": "Channels the 24 voices of Disco Elysium into Claude. Each skill takes over Claude's reasoning and tone for 5 turns, then auto-rotates to another.",
       "version": "1.2.0",
       "author": {
